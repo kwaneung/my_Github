@@ -2,5 +2,5 @@
 
 int main()
 {
-	printf("Branch Test!!!\n");
+	printf("I love Branch\n");
 }
