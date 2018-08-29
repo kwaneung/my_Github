@@ -5,6 +5,6 @@ int main()
 	printf("Hello world!!\n");
 	printf("GIthub!!\n");
 	printf("wow");
-	printf("잘 작동되는가?");
+	printf("Is it work?");
 	return 0;
 }
