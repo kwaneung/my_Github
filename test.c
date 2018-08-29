@@ -3,6 +3,8 @@
 int main()
 {
 	printf("Hello world!!\n");
-	printf("GIthub!!");
+	printf("GIthub!!\n");
+	printf("wow");
+	printf("잘 작동되는가?");
 	return 0;
 }
