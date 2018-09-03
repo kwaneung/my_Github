@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/lion"
+        android:title="사자"
+         app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/vol"
+        android:title="볼륨"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/close"
+        android:title="종료"
+        app:showAsAction="never"/>
+</menu>

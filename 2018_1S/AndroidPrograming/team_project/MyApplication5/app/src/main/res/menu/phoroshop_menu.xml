@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/item1"
+        android:title="선 색깔">
+        <menu>
+            <group
+                android:id="@+id/group1"
+                android:checkableBehavior="single" >
+                <item
+                    android:id="@+id/item_red"
+                    android:orderInCategory="2"
+                    android:title="빨간색"/>
+
+                <item
+                    android:id="@+id/item_blue"
+                    android:orderInCategory="1"
+                    android:title="파란색"/>
+                <item
+                    android:id="@+id/item_black"
+                    android:orderInCategory="0"
+                    android:title="검은색"/>
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/item2"
+        android:title="바탕색">
+        <menu>
+            <group android:id="@+id/group2" android:checkableBehavior="single">
+                <item
+                    android:id="@+id/item_back_yellow"
+                    android:orderInCategory="0"
+                    android:title="회색"/>
+                <item
+                    android:id="@+id/item_back_white"
+                    android:orderInCategory="1"
+                    android:title="하얀색"/>
+                <item
+                    android:id="@+id/item_back_green"
+                    android:orderInCategory="2"
+                    android:title="녹색"/>
+            </group>
+        </menu>
+    </item>
+    <item android:id="@+id/item_clear" android:title="지우기"></item>
+
+</menu>

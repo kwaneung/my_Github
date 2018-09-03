@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.include.myapplication.SoundStudy">
+
+
+    <Button
+        android:textColor="#ffffff"
+        android:background="@drawable/button"
+        android:id="@+id/rainsound"
+        android:onClick="onClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="비오는 소리"
+        />
+    <Button
+        android:textColor="#ffffff"
+        android:background="@drawable/button"
+        android:id="@+id/cafesound"
+        android:onClick="onClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="카페 소리"
+        />
+    <Button
+        android:textColor="#ffffff"
+        android:background="@drawable/button"
+        android:id="@+id/forestsound"
+        android:onClick="onClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="숲 소리"
+        />
+    <Button
+        android:textColor="#ffffff"
+        android:background="@drawable/button"
+        android:id="@+id/firesound"
+        android:onClick="onClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="장작 소리"
+        />
+
+
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textSize="20dp"
+            android:text="당신이 집중한 시간"/>
+
+        <Button
+            android:layout_marginLeft="20dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/button"
+            android:id="@+id/countbt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="CountDown"
+            android:text="카운트시작" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/time_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:background="#cccccc"
+        android:textColor="#777777"
+        android:text="00:00:00" />
+
+
+
+
+
+</LinearLayout>

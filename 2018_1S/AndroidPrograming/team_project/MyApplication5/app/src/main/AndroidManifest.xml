@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.include.myapplication">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="SanSal"
+        android:roundIcon="@drawable/kpu_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TimetableActivity" />
+        <activity android:name=".ScheduleActivity" />
+        <activity android:name=".QRScannerActivity" />
+        <activity android:name=".RandomActivity" />
+        <activity android:name=".SubActivity" />
+        <activity android:name=".MealActivity" />
+        <activity android:name=".TempActivity" />
+        <activity android:name=".TextActivity" />
+        <activity
+            android:name=".DrawingActivity"
+            android:theme="@style/DT"
+            android:label="그림판"/>
+        <activity android:name=".SoundStudy" />
+
+        <service
+            android:name=".Fire"
+            android:enabled="true"
+            android:exported="false"
+            android:stopWithTask="true" />
+        <service
+            android:name=".Cafe"
+            android:enabled="true"
+            android:exported="false"
+            android:stopWithTask="true" />
+        <service
+            android:name=".Forest"
+            android:enabled="true"
+            android:exported="true"
+            android:stopWithTask="true" />
+        <service
+            android:name=".Rain"
+            android:enabled="true"
+            android:exported="true"
+            android:stopWithTask="true" />
+
+        <activity android:name=".SListActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Practice_9</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="planet_prompt">행성을 선택하시오</string>
+
+    <string-array name="planets_array">
+        <item>수성</item>
+        <item>금성</item>
+        <item>지구</item>
+        <item>화성</item>
+        <item>목성</item>
+        <item>토성</item>
+        <item>천왕성</item>
+        <item>해왕성</item>
+    </string-array>
+</resources>

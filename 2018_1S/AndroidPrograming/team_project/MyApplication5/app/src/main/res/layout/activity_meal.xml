@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <HorizontalScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:textColor="#ffffff"
+                android:background="@drawable/button"
+                android:text="치킨"
+                android:id="@+id/food1"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <Button
+                android:textColor="#ffffff"
+                android:background="@drawable/button"
+                android:text="한식"
+                android:id="@+id/food2"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <Button
+                android:textColor="#ffffff"
+                android:background="@drawable/button"
+                android:text="중식"
+                android:id="@+id/food3"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <Button
+                android:textColor="#ffffff"
+                android:background="@drawable/button"
+                android:text="일식"
+                android:id="@+id/food4"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <ListView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/list">
+    </ListView>
+
+</LinearLayout>

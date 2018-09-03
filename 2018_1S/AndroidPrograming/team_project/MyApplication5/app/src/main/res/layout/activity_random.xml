@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:textSize="30dp"
+        android:text="식단보기"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+        <Button
+            android:textColor="#ffffff"
+            android:background="@drawable/button"
+            android:text="tip 학식 보기"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"/>
+        <Button
+            android:textColor="#ffffff"
+            android:background="@drawable/button"
+            android:text="E동 학식 보기"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick2"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:textSize="30dp"
+        android:text="오늘의 메뉴 추천"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:text="한식"
+            android:id="@+id/foodkorea"
+            android:onClick="onRadioButtonClicked"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </RadioButton>
+        <RadioButton
+            android:text="중식"
+            android:onClick="onRadioButtonClicked"
+            android:id="@+id/foodchina"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </RadioButton>
+        <RadioButton
+            android:text="일식"
+            android:id="@+id/foodjapan"
+            android:onClick="onRadioButtonClicked"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </RadioButton>
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_marginTop="10dp"
+        android:id="@+id/korea"
+        android:visibility="invisible"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:text="면류"
+            android:id="@+id/noodle"
+            android:onClick="onRadioButtonClicked2"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </RadioButton>
+        <RadioButton
+            android:text="밥류"
+            android:id="@+id/rice"
+            android:onClick="onRadioButtonClicked2"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </RadioButton>
+        <RadioButton
+            android:text="국류"
+            android:id="@+id/soup"
+            android:onClick="onRadioButtonClicked2"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </RadioButton>
+
+    </RadioGroup>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button"
+        android:text="랜덤 추천"
+        android:visibility="invisible"
+        android:id="@+id/random"
+        android:onClick="onClick3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:paddingTop="50dp"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/recommend"/>
+
+
+
+
+</LinearLayout>
