@@ -1,0 +1,49 @@
+<html>
+ <head>
+  <title>멀티탭 전원 제어</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+ </head>
+ <body>
+    <center>
+        <br><br><br><br>
+        <h2><span style="color:#00C6ED">멀티탭 전원 제어</span></h2>
+		<p id="status" style="color:red;font-size:25px">OFF</p>
+        <form >
+       <input value=On type="button" style="width:100px;height:50px" onclick="SendOn();" />
+      </form>
+      <form >
+       <input value=Off type="button" style="width:100px;height:50px" onclick="SendOff();"/>
+      </form>
+    </center>
+  <script>
+    function SendOn()
+    {
+        console.log("SendOn");
+        
+        $.post("http://192.168.0.93/on",
+        function (data, status) {
+            console.log("SendOn ; done");
+        });
+		
+		var x = document.getElementById("status");         
+		x.style.color = "blue";
+		x.innerHTML = "ON"
+    }
+    
+    function SendOff()
+    {
+        console.log("SendOff");
+        
+        $.post("http://192.168.0.93/off",
+        function (data, status) {
+            console.log("SendOff ; done");
+        });
+		
+		var x = document.getElementById("status");         
+		x.style.color = "red";
+		x.innerHTML = "OFF"
+    }
+  </script>
+ </body>
+</html>
+
