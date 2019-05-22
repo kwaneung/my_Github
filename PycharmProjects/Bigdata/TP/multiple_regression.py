@@ -132,7 +132,10 @@ def cv_diff_rate(df, start_date, term, nameposition):  # 종가 일간 변화율
                     break
         if (i + j + nameposition > 476490 - 3) or (i + j > 230 - 2):
             break
-        df.loc[i + j + nameposition, "cv_diff_rate"] = abs(df.values[i + j + nameposition][6] / df.values[i + j + nameposition + 1][6] - 1) * 100
+        if int(df.values[i + j + nameposition + 1][6]) == int(0):
+            df.loc[i + j + nameposition, "cv_diff_rate"] = 0
+        else:
+            df.loc[i + j + nameposition, "cv_diff_rate"] = abs(df.values[i + j + nameposition][6] / df.values[i + j + nameposition + 1][6] - 1) * 100
 
 
 def cv_ma5_value(df, start_date, term, nameposition):  # 종가의 5일 이동평균
@@ -158,7 +161,10 @@ def cv_ma5_rate(df, start_date, term, nameposition):  # # 종가의 5일 이동�
                     break
         if (i + j + nameposition > 476490 - 7) or (i + j > 230 - 6):
             break
-        df.loc[i + j + nameposition, "cv_ma5_rate"] = abs(df.values[i + j + nameposition][11] / df.values[i + j + nameposition + 1][11] - 1) * 100
+        if int(df.values[i + j + nameposition + 1][11]) == int(0):
+            df.loc[i + j + nameposition, "cv_ma5_rate"] = 0
+        else:
+            df.loc[i + j + nameposition, "cv_ma5_rate"] = abs(df.values[i + j + nameposition][11] / df.values[i + j + nameposition + 1][11] - 1) * 100
 
 
 def cv5d_diff_rate(df, start_date, term, nameposition):  # N일간의 종가 상승률을 (N-1)번째 날의 값으로 설정
@@ -170,7 +176,7 @@ def cv5d_diff_rate(df, start_date, term, nameposition):  # N일간의 종가 상
             break
         else:
             start_date = int(start_date) + 1
-    for i in range(int(term)):
+    for i in range(int(term) + 1):
         if i == 0:
             for j in range(len(df)):
                 if str(df.loc[j + nameposition, "basic_date"]) == str(start_date):
@@ -181,7 +187,10 @@ def cv5d_diff_rate(df, start_date, term, nameposition):  # N일간의 종가 상
             break
         if i + j + nameposition == -1:
             continue
-        df.loc[i + j + nameposition + 1, "cv5d_diff_rate"] = abs(df.values[i + j + nameposition][6] / df.values[i + j + nameposition + 5][6] - 1) * 100
+        if int(df.values[i + j + nameposition + 5][6]) == int(0):
+            df.loc[i + j + nameposition, "cv5d_diff_rate"] = 0
+        else:
+            df.loc[i + j + nameposition + 1, "cv5d_diff_rate"] = abs(df.values[i + j + nameposition][6] / df.values[i + j + nameposition + 5][6] - 1) * 100
 
 
 def ud_5d(df, start_date, term, nameposition):
@@ -193,7 +202,7 @@ def ud_5d(df, start_date, term, nameposition):
             break
         else:
             start_date = int(start_date) + 1
-    for i in range(int(term)):
+    for i in range(int(term) + 1):
         if i == 0:
             for j in range(len(df)):
                 if str(df.loc[j + nameposition, "basic_date"]) == str(start_date):
@@ -237,8 +246,6 @@ def vv_diff_rate(df, start_date, term, nameposition):  # 거래량 일간 변화
                     break
         if (i + j + nameposition > 476490 - 3) or (i + j > 230 - 2):
             break
-        print(df.values[i + j + nameposition + 1][7])
-        print(type(df.values[i + j + nameposition + 1][7]))
         if int(df.values[i + j + nameposition + 1][7]) == int(0):
             df.loc[i + j + nameposition, "vv_diff_rate"] = 0
         else:
@@ -266,8 +273,10 @@ def vv_maN_rate(df, start_date, term, nameposition):
                     break
         if (i + j + nameposition > 476490 - 7) or (i + j > 230 - 6):
             break
-        df.loc[i + j + nameposition, "vv_maN_rate"] = abs(
-            df.values[i + j + nameposition][17] / df.values[i + j + nameposition + 1][17] - 1) * 100
+        if int(df.values[i + j + nameposition + 1][17]) == int(0):
+            df.loc[i + j + nameposition, "vv_maN_rate"] = 0
+        else:
+            df.loc[i + j + nameposition, "vv_maN_rate"] = abs(df.values[i + j + nameposition][17] / df.values[i + j + nameposition + 1][17] - 1) * 100
 
 if __name__ == "__main__":
 
@@ -284,15 +293,12 @@ if __name__ == "__main__":
             print("해당 일자의 주식 정보가 없습니다. 확인후 이용해 주시기 바랍니다.")
 
     term = input("학습 기간을 입력하시오(주말 제외) : ")
-    companyname = input("회사를 입력하세요 : ")  # 230
-    for k in range(2274):
-        t = k * 230
-        if df.loc[t,"stockname"] == str(companyname):
-            nameposition = t
-            break
+    companyname = input("회사를 입력하세요 : ")
 
-    print("nameposition")
-    print(nameposition)
+    for k in range(len(df)):
+        if df.loc[k,"stockname"] == str(companyname):
+            nameposition = k
+            break
 
     df["bias"] = 1
     cv_diff_value(df, start_date, term, nameposition)
