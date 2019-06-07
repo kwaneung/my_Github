@@ -200,8 +200,8 @@ if __name__ == "__main__":
     # 19.5 예시: 색 군집화하기
 
     # PNG파일패쓰, 트레이닝에 시간 오래 걸려, 사이즈가 작아야 함.
-    input_filepath = "E:\Dropbox (개인용)/2018-21KPUWork/10 강의-201901학기\빅데이터-201901학기/03 강의자료/19 군집화/small.png"
-    recolor_image("small.png", 5)
+    input_filepath = "small.png"
+    recolor_image(input_filepath, 5)
     """
     # 19.6 상향식 계층 군집화
     print("bottom up hierarchical clustering")
