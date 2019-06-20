@@ -1,0 +1,6 @@
+Samsung 2
+Hynix 5
+Celtrion 100
+HMC 20
+POSCO 10
+NAVER 2
