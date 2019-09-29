@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<title>{{title}}</title>
+	</head>
+	<body>
+	<center>
+		<br><br><br><br>
+		<h2><span style="color:#00C6ED">{{title}}</span> : {{time}}</h2>
+		<form action="/weather" method="post">
+			<img src=https://pbs.twimg.com/media/DbWVCK1VwAAmLYq.jpg><br><br>
+			<h2><span style="color:#00C6ED">{{ city }}</span> weather : {{status}} {{temp}}'c </h2>
+		</form>
+		<form action="/" method="post">
+			<input value=Back type="submit" />
+		</form>
+		</center>
+	</body>
+</html>
