@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+# 입력 데이터
 data = np.array([[0.1875, 0.75, 0.625, 0.0625, 0.9375, 0.4375, 0.75, 0.625, 1, 0, 0.25, 0.75, 0.875, 0.375, 0.625, 0.6875, 0.375, 0.9375, 0.75, 0.0625],
                  [0.5, 1, 1, 0.4375, 0, 0.5, 0.5625, 0, 0, 0.5, 0.5, 0, 0.25, 1, 0.5, 0, 0, 0.375, 0.4375, 0],
                  [0.3125, 0.5, 0.5, 0.5, 0.1875, 0.9375, 0.9375, 0.4375, 0.1875, 0.125, 0.8125, 0.4375, 0.8125, 0.6875, 0.75, 0.5, 0.0625, 0.5625, 0.75, 0.125],
@@ -43,22 +44,29 @@ data = np.array([[0.1875, 0.75, 0.625, 0.0625, 0.9375, 0.4375, 0.75, 0.625, 1, 0
                  [0.3125, 1, 0.9375, 0.375, 0.1875, 0.3125, 0.25, 0.9375, 0, 0.875, 0.875, 0.875, 0.4375, 0.5, 0.875, 0.3125, 0.3125, 0.75, 0.6875, 0.0625]
 ])
 
+
+# 시그모이드 함수
 def sigmoidFunc(totalInput):
     return 1.0 / (np.ones(totalInput.shape)+np.exp(-1.0*totalInput))
 
+
+# 출력층과 은닉층의 연결 강도의 변화
 def outputDeltas(output, target):
     sigmoidDeriv = output * (np.ones(output.shape)-output)
     return 2 * (target - output) * sigmoidDeriv
 
+
+# 은닉층과 입력층의 연결 강도의 변화
 def hiddenDeltas(outputDeltas, hiddenOutputs, outputWeights):
     sigmoidDeriv = hiddenOutputs * (np.ones(hiddenOutputs.shape) - hiddenOutputs)
     return (np.dot(outputWeights.T, outputDeltas.T)) * sigmoidDeriv
 
-mList=[0]*1000
-tList=[0]*1000
-eList=[0]*1000
 
+mList = [0]*1000
+tList = [0]*1000
+eList = [0]*1000
 
+# 파라미터 초기화
 patterns = data.T
 nPats = data.shape[0]
 nTrainingPats = 20
@@ -81,7 +89,6 @@ minEpochsPerErrorPlot = 200
 errorsPerEpoch = np.zeros((1, minEpochsPerErrorPlot))
 TestErrorsPerEpoch = np.zeros((1, minEpochsPerErrorPlot))
 
-
 for pat in range(0, nPats, 1):
     target[classNum, pat] = 1
     classNum = classNum+1
@@ -97,6 +104,7 @@ for epoch in range(0, NEpochs, 1):
     hiddenWGrad = np.zeros(hiddenWeights.shape)
 
     for pat in range(0, nTrainingPats, 1):
+        # 전방향 패스
         inp = np.hstack([input[:, pat], np.array([1])])
         hiddenNetInputs = np.dot(hiddenWeights, inp)
         hiddenStates = sigmoidFunc(hiddenNetInputs)
@@ -104,6 +112,7 @@ for epoch in range(0, NEpochs, 1):
         outputNetInputs = np.dot(outputWeights, hidStatesBias)
         outputStates = sigmoidFunc(outputNetInputs)
 
+        # 역방향 패스
         targetStates = target[:, pat]
         error = outputStates - targetStates
         sumSqrError = sumSqrError + np.dot(error, error)
@@ -114,6 +123,7 @@ for epoch in range(0, NEpochs, 1):
         hiddenDelArray = np.array([hiddenDel])
         hiddenWGrad = hiddenWGrad + np.dot(hiddenDelArray[:, 0:nHidden].T, np.array([inp]))
 
+    # 연결 가중치 갱신
     outputWChange = eta*outputWGrad
     outputWeights = outputWeights + outputWChange
     hiddenWChange = eta*hiddenWGrad
@@ -130,7 +140,6 @@ for epoch in range(0, NEpochs, 1):
         targetStates = target[:, pat]
         error = outputStates - targetStates
         sumSqrTestError = sumSqrTestError+np.dot(error, error)
-
 
     MSE = sumSqrError/nTrainingPats
     TestMSE = sumSqrTestError/nTestPats

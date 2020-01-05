@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.image as img
 
-path = "C:\\Users\\whats\\PycharmProjects\\AI\\190320\\testData\\"
+path = "C:\\Users\\whats\\PycharmProjects\\AI\\190320_numimg\\testData\\"
 trainData = np.zeros((20 * 16, 8))#8이 한종류의 템플릿의 수
 meanData = np.zeros((20 * 16, 10))#10이 템플릿 종류의 수
 

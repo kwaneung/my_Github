@@ -1,7 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="805a3ef7-7c6b-4221-b217-712d827448e1" name="Default Changelist" comment="" />
+    <list default="true" id="805a3ef7-7c6b-4221-b217-712d827448e1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/ex1.py" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/ex1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/template.py" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/template.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit0_1.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit0_1.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit0_2.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit0_2.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit0_3.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit0_3.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit0_4.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit0_4.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit0_5.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit0_5.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit0_6.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit0_6.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit0_7.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit0_7.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit1_1.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit1_1.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit1_2.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit1_2.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit1_3.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit1_3.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit1_4.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit1_4.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit1_5.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit1_5.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit1_6.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit1_6.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit1_7.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit1_7.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit2_1.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit2_1.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit2_2.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit2_2.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit2_3.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit2_3.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit2_4.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit2_4.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit2_5.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit2_5.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit2_6.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit2_6.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit2_7.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit2_7.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit3_1.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit3_1.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit3_2.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit3_2.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit3_3.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit3_3.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit3_4.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit3_4.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit3_5.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit3_5.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit3_6.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit3_6.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit3_7.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit3_7.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit4_1.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit4_1.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit4_2.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit4_2.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit4_3.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit4_3.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit4_4.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit4_4.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit4_5.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit4_5.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit4_6.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit4_6.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit4_7.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit4_7.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit5_1.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit5_1.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit5_2.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit5_2.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit5_3.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit5_3.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit5_4.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit5_4.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit5_5.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit5_5.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit5_6.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit5_6.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit5_7.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit5_7.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit6_1.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit6_1.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit6_2.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit6_2.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit6_3.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit6_3.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit6_4.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit6_4.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit6_5.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit6_5.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit6_6.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit6_6.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit6_7.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit6_7.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit7_1.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit7_1.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit7_2.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit7_2.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit7_3.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit7_3.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit7_4.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit7_4.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit7_5.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit7_5.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit7_6.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit7_6.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit7_7.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit7_7.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit8_1.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit8_1.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit8_2.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit8_2.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit8_3.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit8_3.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit8_4.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit8_4.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit8_5.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit8_5.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit8_6.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit8_6.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit8_7.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit8_7.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit9_1.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit9_1.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit9_2.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit9_2.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit9_3.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit9_3.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit9_4.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit9_4.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit9_5.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit9_5.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit9_6.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit9_6.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190320/testData/digit9_7.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/190320_numimg/testData/digit9_7.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190327/cv2_ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/190327_numinimg/cv2_ex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190327/plate1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/190327_numinimg/plate1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190417/gate.py" beforeDir="false" afterPath="$PROJECT_DIR$/190417_perceptron_gate/gate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190417/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/190417_perceptron_gate/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190501/ANN.py" beforeDir="false" afterPath="$PROJECT_DIR$/190501_ANN/ANN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190501/Python_ANN_data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/190501_ANN/Python_ANN_data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190508/mnist.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/190508_mnist/mnist.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190508/mnist.py" beforeDir="false" afterPath="$PROJECT_DIR$/190508_mnist/mnist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190508/t10k-images-idx3-ubyte.gz" beforeDir="false" afterPath="$PROJECT_DIR$/190508_mnist/t10k-images-idx3-ubyte.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190508/t10k-labels-idx1-ubyte.gz" beforeDir="false" afterPath="$PROJECT_DIR$/190508_mnist/t10k-labels-idx1-ubyte.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190508/train-images-idx3-ubyte.gz" beforeDir="false" afterPath="$PROJECT_DIR$/190508_mnist/train-images-idx3-ubyte.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190508/train-labels-idx1-ubyte.gz" beforeDir="false" afterPath="$PROJECT_DIR$/190508_mnist/train-labels-idx1-ubyte.gz" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,10 +97,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/190501/ANN.py">
+        <entry file="file://$PROJECT_DIR$/190522/amp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1482">
-              <caret line="79" column="27" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="27" />
+            <state relative-caret-position="285">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/190529/K-Means.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -22,31 +117,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/190508/mnist.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/190522/amp.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1121">
-              <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
-            </state> 
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/190529/K-Means.py">
+        <entry file="file://$PROJECT_DIR$/190508_mnist/mnist.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="782">
+              <caret line="259" column="16" lean-forward="true" selection-start-line="259" selection-start-column="16" selection-end-line="259" selection-end-column="16" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#118#132#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,22 +144,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/190320/ex1.py" />
         <option value="$PROJECT_DIR$/190529/K-Means.py" />
         <option value="$PROJECT_DIR$/190605/opencv_ann.py" />
+        <option value="$PROJECT_DIR$/190320/ex1.py" />
+        <option value="$PROJECT_DIR$/190501/ANN.py" />
+        <option value="$PROJECT_DIR$/190508_mnist/test2.py" />
+        <option value="$PROJECT_DIR$/190508_mnist/test.py" />
+        <option value="$PROJECT_DIR$/190508_mnist/mnist.py" />
+        <option value="$PROJECT_DIR$/test/test.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="106" />
-    <option name="y" value="32" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
     <option name="width" value="974" />
     <option name="height" value="923" />
   </component>
@@ -99,6 +173,26 @@
               <item name="AI" type="b2602c69:ProjectViewProjectNode" />
               <item name="AI" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AI" type="462c0819:PsiDirectoryNode" />
+              <item name="190508_mnist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AI" type="462c0819:PsiDirectoryNode" />
+              <item name="190522" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AI" type="462c0819:PsiDirectoryNode" />
+              <item name="190529" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AI" type="462c0819:PsiDirectoryNode" />
+              <item name="AI0403" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -112,6 +206,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kwaneung\Documents\GitHub\my_Github\2019_1S\AI\test" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\kwaneung\Documents\GitHub\my_Github\2019_1S\AI\190508" />
       <recent name="C:\Users\kwaneung\Documents\GitHub\my_Github\2019_1S\AI\190501" />
@@ -129,28 +226,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.K-Means">
-    <configuration name="K-Means" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="AI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/190529" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/190529/K-Means.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.amp">
     <configuration name="amp" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -172,7 +248,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="mnist (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -180,11 +256,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/190320" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/190508_mnist" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/190320/ex1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/190508_mnist/mnist.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -214,12 +290,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/190508_mnist" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/190508_mnist/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.K-Means" />
         <item itemvalue="Python.amp" />
+        <item itemvalue="Python.mnist (1)" />
+        <item itemvalue="Python.test (2)" />
+        <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.mnist" />
-        <item itemvalue="Python.ex1" />
       </list>
     </recent_temporary>
   </component>
@@ -237,22 +356,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="106" y="32" width="974" height="923" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32692307" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16122234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32968238" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.382763" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286334" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32953104" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -277,7 +397,54 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/190508_mnist/mnist.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/190508_mnist/mnist.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/190508_mnist/mnist.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/190508_mnist/mnist.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/190508_mnist/mnist.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/190508_mnist/mnist.py</url>
+          <line>77</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/190508_mnist/mnist.py</url>
+          <line>86</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/190508_mnist/mnist.py</url>
+          <line>94</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/190605/opencv_ann.py" />
     <entry file="file://$PROJECT_DIR$/190306/190306.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -305,33 +472,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/190320/ex1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/190313/Lenna.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/190403/image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/190417/gate.py">
+    <entry file="file://$PROJECT_DIR$/190313/numpy_ex.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/190417/test.py">
+    <entry file="file://$PROJECT_DIR$/190313/mat_ex.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -340,37 +487,109 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/190605/opencv_ann.py" />
-    <entry file="file://$PROJECT_DIR$/190501/ANN.py">
+    <entry file="file://$PROJECT_DIR$/190313/while_ex.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190320_numimg/testData/digit2_3.bmp">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190320_numimg/ex1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1482">
-          <caret line="79" column="27" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="27" />
+        <state relative-caret-position="209">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/190508/mnist.py">
+    <entry file="file://$PROJECT_DIR$/190327_numinimg/cv2_ex.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/190403/image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190417_perceptron_gate/gate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190417_perceptron_gate/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190327_numinimg/plate1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190501_ANN/ANN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="148" column="22" selection-start-line="148" selection-start-column="22" selection-end-line="148" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AI0403/bb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190508_mnist/test2.py" />
+    <entry file="file://$PROJECT_DIR$/190508_mnist/test.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/tensorflow/core/framework/resource_handle_pb2.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/tensorflow/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/test/test.py" />
     <entry file="file://$PROJECT_DIR$/190522/amp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1121">
-          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+        <state relative-caret-position="285">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/190529/K-Means.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="285">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190508_mnist/mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="259" column="16" lean-forward="true" selection-start-line="259" selection-start-column="16" selection-end-line="259" selection-end-column="16" />
+          <folding>
+            <element signature="e#118#132#0" expanded="true" />
           </folding>
         </state>
       </provider>
